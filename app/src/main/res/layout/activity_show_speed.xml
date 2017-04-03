@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="dhakre.uha.fr.trackspeed.ShowSpeed">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="380dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Brand  of Car"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="132dp"
+        android:layout_height="52dp"
+        android:text="Enter"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="183dp"
+        android:layout_above="@+id/showDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp" />
+
+    <Button
+        android:id="@+id/showDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Details"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/enter"
+        android:layout_alignStart="@+id/enter" />
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dhakre.uha.fr.trackspeed.SelectOtherCar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="259dp"
+        android:layout_height="26dp"
+        android:text="Car Details"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/tx_Brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Brand"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="64dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Name"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/tx_Brand"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tx_speeedmax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maximum Speed"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="178dp"
+        android:layout_below="@+id/tx_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tx_currentSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Speed"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="248dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tx_speeedmax"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/othercar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_currentSpeed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Select other car" />
+</RelativeLayout>
